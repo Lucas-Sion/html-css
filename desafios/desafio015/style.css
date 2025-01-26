@@ -2,5 +2,20 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    
+}
+
+div.botoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de largura igual */
+    gap: 10px; /* Espaço entre os botões */
+    justify-content: center;
+}
+
+.botoes button{
+        width: 60px; /* Largura fixa */
+        height: 60px; /* Altura fixa */
+        font-size: 16px;
+        border: 1px solid #ccc; /* Uma borda leve para visualização */
+        border-radius: 5px; /* Cantos arredondados */
+        cursor: pointer; /* Mostra que os botões são clicáveis */
 }

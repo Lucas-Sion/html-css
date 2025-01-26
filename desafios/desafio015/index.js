@@ -1,1 +1,1 @@
-function
+var nome= window.prompt('Qual é seu nome?')
